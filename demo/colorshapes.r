@@ -277,7 +277,7 @@ xlim   <- range(c(Ax, Bx))
 ylim   <- range(c(Ay, By))
 
 plot  (x=Ax,y=Ay, type="l",lwd=3,   # 1st isocline
-     main="Arrows",sub="Model from Soetaert and Herman, book in prep",
+     main="Arrows",sub="Model from Soetaert and Herman, 2008. book",
        xlab="N1",ylab="N2",xlim=xlim,ylim=ylim)
 lines (Bx,By, lty=2,lwd=3)            # 2nd isocline
 
@@ -308,7 +308,7 @@ color <- femmecol(100)
 
 zlim=c(0,BW)
 emptyplot(c(-3.3,3.3),col=color[length(color)],main="Oxygen concentration in spherical organism",
-sub="Model from Soetaert and Herman, book in prep")
+sub="Model from Soetaert and Herman, 2008. book")
 R      <- 0.005
 values <- cbind(rr<-seq(0,R,length=50),sphere(Da,Q,BW,R,rr))
 
