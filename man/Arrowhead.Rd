@@ -27,16 +27,19 @@
   Arrowhead(x0=runif(10),y0=runif(10),angle=runif(10)*360,
   arr.length=runif(10),arr.type="triangle",arr.col=rainbow(10))}
 \details{x0, y0, angle, arr.length, arr.width, lcol, lty and arr.col can be a vector, of the same length.
-     
+
+  \itemize{
      \item if arr.adj = 0.5, then the centre of the arrowhead is at the point at which it is drawn.    
      \item arr.adj = 1 causes the tip of the arrowhead to touch the point.
      \item arr.adj = 0 causes the base of the arrowhead to touch the point.
-  
+}
     The type of the arrowhead is set with "arr.type" which can take the values:
+  \itemize{
     \item "simple"  : uses comparable R function arrows  
     \item "triangle": uses filled triangle
     \item "curved"  : draws arrowhead with curved edges
     \item "circle"  : draws circular head}
+}
 \seealso{\code{\link{Arrows}}}
 \keyword{aplot}
 

@@ -58,21 +58,24 @@
 \details{x0, y0, x1, y1, arr.length, arr.width, arr.adj, lcol, lty and arr.col can be a vector, of the same length.
    
     For each 'i', an arrow is drawn between the point '(x0[i], y0[i])' and the point '(x1[i],y1[i])'.
-    
+  \itemize{
     \item If 'code=1' an arrowhead is drawn at '(x0[i],y0[i])'
     \item if 'code=2' an arrowhead is drawn at '(x1[i],y1[i])'.  
     \item If 'code=3' an arrowhead is drawn at both ends of the arrow
     \item unless 'arr.length = 0', when no head is drawn.
-  
+}
+  \itemize{
     \item If arr.adj = 0.5 then the centre of the arrowhead is at the point at which it is drawn. 
     \item arr.adj = 1 causes the tip of the arrowhead to touch the point.
     \item arr.adj = 2 causes the base of the arrowhead to touch the point.
-    
+}
     The type of the arrowhead is set with "arr.type" which can take the values:
+  \itemize{
     \item "simple"  : uses comparable R function arrows  
     \item "triangle": uses filled triangle
     \item "curved"  : draws arrowhead with curved edges
     \item "circle"  : draws circular head}
+}
 \seealso{\code{\link{arrows}} the comparable R function
     \cr \code{\link{Arrowhead}}}
 \keyword{aplot}

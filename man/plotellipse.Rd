@@ -44,11 +44,12 @@
     \cr arr.length and arr.width set the size of the arrow. 
     
     The type of the arrowhead is set with "arr.type" which can take the values:
+  \itemize{
     \item "simple"  : uses comparable R function arrows  
     \item "triangle": uses filled triangle
     \item "curved"  : draws arrowhead with curved edges
     \item "circle"  : draws circular head 
-    
+}
     arr.pos, a real value between 0 and 1 gives the position (0=start,1=end).
     \cr arr.col specifies the color, arr.code specifies where the angle points to. 
     \cr arr.adj specifies the position adjustment - see \code{\link{Arrows}} for details}
