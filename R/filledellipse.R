@@ -24,4 +24,5 @@ filledellipse <- function(rx1=1, rx2=0, ry1=rx1, ry2=NULL,
   filledshape(xyouter=xyouter, xyinner=xyinner, col=col, values=values,
               zlim=zlim, lwd=lwd, lcol=lcol, ...)
 
+  invisible(list(xyouter=xyouter, xyinner=xyinner))
 }

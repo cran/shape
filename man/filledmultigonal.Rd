@@ -102,6 +102,9 @@ filledmultigonal(rx = 0.25, col = "darkblue", nr = 4.5, mid = c(0.75, -0.75))
   Colors in \code{col} will be interpolated to the z-values and used to
   color an interval as given by the input radiusses.
 }
+\value{
+ returns, as \code{invisible} a \code{list} containing "xyouter" and "xyinner", the points that define the outer and inner ellipse.
+}
 
 \seealso{
   \code{\link{filledrectangle}}, \code{\link{filledshape}},

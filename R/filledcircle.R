@@ -13,6 +13,7 @@ filledcircle <- function(r1=1, r2=0, mid=c(0,0), dr=0.01,
   sx   <- user[2]-user[1]
   ry1  <- r1*sy/sx*pin[1]/pin[2]
   ry2  <- r2*sy/sx*pin[1]/pin[2]
-  filledellipse(rx1=r1,ry1=ry1,rx2=r2,ry2=ry2,mid=mid,dr=dr,from=from,to=to,
+  XY <- filledellipse(rx1=r1,ry1=ry1,rx2=r2,ry2=ry2,mid=mid,dr=dr,from=from,to=to,
                col=col,lwd=lwd,lcol=lcol,values=values,zlim=zlim,...)
+  invisible(XY) 
 }

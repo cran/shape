@@ -14,6 +14,9 @@ filledellipse(rx1 = 1, rx2 = 0, ry1 = rx1, ry2 = NULL, mid = c(0,0),
   dr = 0.01, angle = 0, from = -pi, to = pi, col = femmecol(100),  
   values = NULL, zlim = NULL, lwd = 2, lcol = NA, ...)
 }
+\value{
+ returns, as \code{invisible} a \code{list} containing "xyouter" and "xyinner", the points that define the outer and inner ellipse.
+}
 \arguments{
   \item{rx1 }{horizontal radius of outer ellipse.
   }

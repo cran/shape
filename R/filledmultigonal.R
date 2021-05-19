@@ -14,5 +14,5 @@ filledmultigonal <- function(mid=c(0,0), rx=1, ry=rx, nr=4,
 
   filledshape(xyouter=xy, xyinner=mid, col=col, values=values,
               zlim=zlim, lwd=lwd, lcol=lcol, ...)
-
+  invisible(list(xyouter=xy, xyinner=mid))
 }

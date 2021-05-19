@@ -71,6 +71,9 @@ for (i in seq(0, 0.45, 0.05))
    filledcircle(r1 = i+0.05, r2 = i, 
                 mid = c(0.5, 0.5), col = i*20)
 }
+\value{
+ returns, as \code{invisible} a \code{list} containing "xyouter" and "xyinner", the points that define the outer and inner ellipse.
+}
 
 \details{
   see \code{\link{filledellipse}} for details
